@@ -1,0 +1,12 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "Project Description",
+  "devDependencies": {
+    "devbridge-styleguide": "^0.4.9",
+    "grunt": "latest",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}

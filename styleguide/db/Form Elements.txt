@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Field Input",
+    "code": "<div class=\"field-holder\">\n    <input class=\"form-control field-text ng-pristine ng-invalid ng-invalid-required db-pristine ng-valid-maxlength ng-valid-pattern\" id=\"FormData_Email\" name=\"FormData_Email\" placeholder=\"Email Address\" type=\"text\">\n\t<div class=\"field-validation-error ng-hide\"><span>Field is required</span></div>\n</div>\n\n<div class=\"field-holder\">\n    <input class=\"form-control field-text ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-pattern\" id=\"FormData_Email\" name=\"FormData_Email\" placeholder=\"Email Address\" type=\"text\">\n\t<div class=\"field-validation-error\"><span>Field is required</span></div>\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "false",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]

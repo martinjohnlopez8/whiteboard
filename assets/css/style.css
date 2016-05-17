@@ -1,0 +1,261 @@
+/* Modules and Variables
+   ========================================================================== */
+/* Color Scheme
+   ========================================================================== */
+@import url(vendor/bootstrap.min.css);
+@import url(vendor/font-awesome/css/font-awesome.min.css);
+@font-face {
+  font-family: Slot-Regular;
+  src: url(../../fonts/Slot-Regular.otf);
+}
+/* Mixins
+   ========================================================================== */
+/* Partials
+   ========================================================================== */
+/* Helpers
+   ========================================================================== */
+/* line 4, partials/_helpers.scss */
+._pull-left {
+  float: left !important;
+}
+
+/* line 5, partials/_helpers.scss */
+._pull-right {
+  float: right !important;
+}
+
+/* line 6, partials/_helpers.scss */
+._text-center {
+  text-align: center !important;
+}
+
+/* line 7, partials/_helpers.scss */
+._remove-padding {
+  padding: 0 !important;
+}
+
+/* line 8, partials/_helpers.scss */
+._remove-margin {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 11, partials/_helpers.scss */
+  ._sm-padding-rm {
+    padding: 0;
+  }
+
+  /* line 12, partials/_helpers.scss */
+  ._sm-text-center {
+    text-align: center !important;
+  }
+
+  /* line 13, partials/_helpers.scss */
+  ._sm-pull-left {
+    float: left !important;
+  }
+
+  /* line 14, partials/_helpers.scss */
+  ._sm-pull-right {
+    float: right !important;
+  }
+}
+/* Typography
+   ========================================================================== */
+@font-face {
+  font-family: FengardoNeue_Black;
+  src: url(../fonts/FengardoNeue_Black.otf);
+}
+@font-face {
+  font-family: FengardoNeue_Regular;
+  src: url(../fonts/FengardoNeue_Regular.otf);
+}
+@font-face {
+  font-family: Gotham-Black;
+  src: url(../fonts/Gotham-Black.otf);
+}
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: Gotham-Book;
+  src: url(../fonts/Gotham-Book.otf);
+}
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../fonts/Gotham-Medium.otf);
+}
+@font-face {
+  font-family: Slot-Regular;
+  src: url(../fonts/Slot-Regular.otf);
+}
+/* line 33, partials/_typography.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 38, partials/_typography.scss */
+body {
+  padding-top: 80px;
+}
+
+/* line 42, partials/_typography.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 46, partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato-Bold";
+}
+
+/* line 50, partials/_typography.scss */
+h1 {
+  font-size: 3.6rem;
+}
+
+/* line 51, partials/_typography.scss */
+h2 {
+  font-size: 2.4rem;
+}
+
+/* line 52, partials/_typography.scss */
+h3 {
+  font-size: 1.8rem;
+}
+
+/* line 53, partials/_typography.scss */
+h4 {
+  font-size: 1.6rem;
+}
+
+/* line 54, partials/_typography.scss */
+h5 {
+  font-size: 1.4rem;
+}
+
+/* line 55, partials/_typography.scss */
+h6 {
+  font-size: 1.2rem;
+}
+
+/* line 56, partials/_typography.scss */
+p {
+  font-size: 1.4rem;
+}
+
+/* line 58, partials/_typography.scss */
+li, a, p {
+  font-family: "Lato-Regular";
+}
+
+/* line 62, partials/_typography.scss */
+input, textarea {
+  border: 1px solid gray;
+  outline: none;
+}
+
+/* line 67, partials/_typography.scss */
+button:focus, input:focus {
+  outline: 0;
+}
+
+/* line 71, partials/_typography.scss */
+a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* line 76, partials/_typography.scss */
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* line 82, partials/_typography.scss */
+li {
+  font-size: 1.4rem;
+}
+
+/* line 86, partials/_typography.scss */
+table {
+  font-family: "Lato-Regular";
+  font-size: 1.4rem;
+}
+
+/* line 91, partials/_typography.scss */
+th {
+  font-weight: normal;
+}
+
+/* line 95, partials/_typography.scss */
+label {
+  font-family: "Lato-Regular";
+  font-size: 1.4rem;
+}
+
+/* Pages
+   ========================================================================== */
+/* Homepage
+   ========================================================================== */
+/* line 4, pages/_homepage.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero
+   ========================================================================== */
+/* line 13, pages/_homepage.scss */
+.hero {
+  background: url("../img/hero-image.jpg") no-repeat center center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 24, pages/_homepage.scss */
+.hero .hero-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+}
+/* line 35, pages/_homepage.scss */
+.hero .hero-content h1 {
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 54px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* About
+   ========================================================================== */
+/* line 55, pages/_homepage.scss */
+.about {
+  background: url("../img/about-image.jpg") center no-repeat;
+  background-size: cover;
+  height: 65%;
+  width: 100%;
+  margin: 0;
+  padding: 96px 0;
+}
+
+/* Third-party
+   ========================================================================== */

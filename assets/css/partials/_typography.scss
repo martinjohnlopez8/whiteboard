@@ -1,0 +1,98 @@
+/* Typography
+   ========================================================================== */
+
+@font-face {
+    font-family: FengardoNeue_Black;
+    src: url(../fonts/FengardoNeue_Black.otf);
+}
+@font-face {
+    font-family: FengardoNeue_Regular;
+    src: url(../fonts/FengardoNeue_Regular.otf);
+}
+@font-face {
+    font-family: Gotham-Black;
+    src: url(../fonts/Gotham-Black.otf);
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(../fonts/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: Gotham-Book;
+    src: url(../fonts/Gotham-Book.otf);
+}
+@font-face {
+    font-family: Gotham-Medium;
+    src: url(../fonts/Gotham-Medium.otf);
+}
+@font-face {
+    font-family: Slot-Regular;
+    src: url(../fonts/Slot-Regular.otf);
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding-top: 80px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato-Bold";
+}
+
+h1 { font-size: 3.6rem; }
+h2 { font-size: 2.4rem; }
+h3 { font-size: 1.8rem; }
+h4 { font-size: 1.6rem; }
+h5 { font-size: 1.4rem; }
+h6 { font-size: 1.2rem; }
+p { font-size: 1.4rem; }
+
+li, a, p {
+	font-family: "Lato-Regular";
+}
+
+input, textarea {
+	border: 1px solid gray;
+	outline: none;
+}
+
+button:focus, input:focus {
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+li {
+	font-size: 1.4rem;
+}
+
+table {
+	font-family: "Lato-Regular";
+	font-size: 1.4rem;
+}
+
+th {
+	font-weight: normal;
+}
+
+label {
+	font-family: "Lato-Regular";
+	font-size: 1.4rem;
+}

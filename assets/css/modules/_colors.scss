@@ -1,0 +1,27 @@
+/* Color Scheme
+   ========================================================================== */
+
+//-- colors:start --//
+
+$light-orange: #f4bf38;
+$orange: #ef9e31;
+$dark-orange: #e27a2b;
+$blue: #235977;
+$white: #fefefe;
+$black: #2a2a2b;
+
+//-- colors:end --//
+
+
+
+//-- typo:start --//
+
+@font-face {
+    font-family: Slot-Regular;
+    src: url(../../fonts/Slot-Regular.otf);
+}
+
+$font-slot: 'Slot-Regular'; // 300, 700
+$font-proxima-alternative: 'Neue Helvetica W01', helvetica, sans-serif; // 400, 400 italic
+$font-newsgothic: 'Neue Helvetica W01', helvetica, sans-serif; // 700
+//-- typo:end --//

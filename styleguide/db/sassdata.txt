@@ -1,0 +1,65 @@
+[
+  {
+    "name": "theme",
+    "colors": {
+      "#f4bf38": [
+        "$light-orange"
+      ],
+      "#e27a2b": [
+        "$dark-orange"
+      ],
+      "#fefefe": [
+        "$white"
+      ],
+      "#ef9e31": [
+        "$orange"
+      ],
+      "#2a2a2b": [
+        "$black"
+      ],
+      "#235977": [
+        "$blue"
+      ]
+    },
+    "typography": [
+      {
+        "variable": "$font-slot",
+        "value": "'Slot-Regular'",
+        "weights": [
+          {
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$font-proxima-alternative",
+        "value": "'Neue Helvetica W01', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "weight": 400,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$font-newsgothic",
+        "value": "'Neue Helvetica W01', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+/* Homepage
+   ========================================================================== */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Hero
+   ========================================================================== */
+
+
+.hero {
+	background: url('../img/hero-image.jpg') no-repeat center center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+
+	.hero-content {
+
+		position: absolute;
+		top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	width: 50%;
+    	height: 30%;
+    	margin: auto;
+
+		h1 {
+			color: white;
+			display: block;
+			text-align: center;
+			margin: 0;
+			font-family: arial;
+			font-weight: 100;
+			font-size: 54px;
+			line-height: 1;
+			letter-spacing: 0.5px;
+
+
+		}
+	}
+}
+
+
+/* About
+   ========================================================================== */
+
+.about {
+	background: url('../img/about-image.jpg') center no-repeat;
+	background-size: cover;
+	height: 65%;
+	width: 100%;
+	margin: 0;
+	padding: 96px 0;
+}
