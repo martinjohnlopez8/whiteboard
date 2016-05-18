@@ -233,20 +233,25 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 27, pages/_homepage.scss */
+/* line 25, pages/_homepage.scss */
 .hero h1 {
   color: white;
   display: block;
-  text-align: center;
   margin: 0;
   font-weight: 100;
   line-height: 1;
   letter-spacing: 0.5px;
 }
+/* line 34, pages/_homepage.scss */
+.hero hr {
+  border-color: yellow;
+  margin-top: 50px;
+  width: 10%;
+}
 
 /* Work
    ========================================================================== */
-/* line 43, pages/_homepage.scss */
+/* line 45, pages/_homepage.scss */
 .work {
   background: url("../img/about-image.jpg") center no-repeat;
   background-size: cover;

@@ -22,18 +22,20 @@ html, body {
     background-repeat: no-repeat;
 
 
-
-
 		h1 {
 			color: white;
 			display: block;
-			text-align: center;
 			margin: 0;
 			font-weight: 100;
 			line-height: 1;
 			letter-spacing: 0.5px;
+		}
 
-	}
+		hr {
+			border-color: yellow;
+			margin-top: 50px;
+			width: 10%
+		}
 }
 
 
