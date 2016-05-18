@@ -39,23 +39,35 @@
   margin: 0 !important;
 }
 
+/* line 9, partials/_helpers.scss */
+._text-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+}
+
 @media screen and (max-width: 767px) {
-  /* line 11, partials/_helpers.scss */
+  /* line 19, partials/_helpers.scss */
   ._sm-padding-rm {
     padding: 0;
   }
 
-  /* line 12, partials/_helpers.scss */
+  /* line 20, partials/_helpers.scss */
   ._sm-text-center {
     text-align: center !important;
   }
 
-  /* line 13, partials/_helpers.scss */
+  /* line 21, partials/_helpers.scss */
   ._sm-pull-left {
     float: left !important;
   }
 
-  /* line 14, partials/_helpers.scss */
+  /* line 22, partials/_helpers.scss */
   ._sm-pull-right {
     float: right !important;
   }
@@ -108,47 +120,47 @@ html {
 
 /* line 46, partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato-Bold";
+  font-family: "Arial";
 }
 
 /* line 50, partials/_typography.scss */
 h1 {
-  font-size: 3.6rem;
+  font-size: 54px;
 }
 
 /* line 51, partials/_typography.scss */
 h2 {
-  font-size: 2.4rem;
+  font-size: 36px;
 }
 
 /* line 52, partials/_typography.scss */
 h3 {
-  font-size: 1.8rem;
+  font-size: 32px;
 }
 
 /* line 53, partials/_typography.scss */
 h4 {
-  font-size: 1.6rem;
+  font-size: 24px;
 }
 
 /* line 54, partials/_typography.scss */
 h5 {
-  font-size: 1.4rem;
+  font-size: 20px;
 }
 
 /* line 55, partials/_typography.scss */
 h6 {
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 
 /* line 56, partials/_typography.scss */
 p {
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 
 /* line 58, partials/_typography.scss */
 li, a, p {
-  font-family: "Lato-Regular";
+  font-family: "Arial";
 }
 
 /* line 62, partials/_typography.scss */
@@ -221,40 +233,28 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 24, pages/_homepage.scss */
-.hero .hero-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
-  height: 30%;
-  margin: auto;
-}
-/* line 35, pages/_homepage.scss */
-.hero .hero-content h1 {
+/* line 27, pages/_homepage.scss */
+.hero h1 {
   color: white;
   display: block;
   text-align: center;
   margin: 0;
-  font-family: arial;
   font-weight: 100;
-  font-size: 54px;
   line-height: 1;
   letter-spacing: 0.5px;
 }
 
-/* About
+/* Work
    ========================================================================== */
-/* line 55, pages/_homepage.scss */
-.about {
+/* line 43, pages/_homepage.scss */
+.work {
   background: url("../img/about-image.jpg") center no-repeat;
   background-size: cover;
   height: 65%;
   width: 100%;
   margin: 0;
   padding: 96px 0;
+  position: relative;
 }
 
 /* Third-party
