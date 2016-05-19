@@ -30,7 +30,7 @@ html, body {
     	z-index: 9;
     	background-color: rgba(17,17,17,0.6);
     	overflow: hidden;
-    }
+    	}
 
 	.hero-content {
 
@@ -46,7 +46,16 @@ html, body {
 			position: relative;
 			z-index: 100;
 		}
-	}	
+
+		hr {
+	    	border-color: #FFE300;
+	    	width: 12%;
+	    	border-width: 2px;
+	    	position: relative;
+	    	z-index: 100;
+	    	margin-top: 50px;
+		}	
+	}
 }
 
 

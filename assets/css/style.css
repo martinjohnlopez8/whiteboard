@@ -285,10 +285,19 @@ html, body {
   position: relative;
   z-index: 100;
 }
+/* line 50, pages/_homepage.scss */
+.hero .hero-content hr {
+  border-color: #FFE300;
+  width: 12%;
+  border-width: 2px;
+  position: relative;
+  z-index: 100;
+  margin-top: 50px;
+}
 
 /* Work
    ========================================================================== */
-/* line 56, pages/_homepage.scss */
+/* line 65, pages/_homepage.scss */
 .work {
   background: url("../img/about-image.jpg") center no-repeat;
   background-size: cover;
