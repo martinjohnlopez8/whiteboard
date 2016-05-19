@@ -52,22 +52,22 @@
 }
 
 @media screen and (max-width: 767px) {
-  /* line 19, partials/_helpers.scss */
+  /* line 21, partials/_helpers.scss */
   ._sm-padding-rm {
     padding: 0;
   }
 
-  /* line 20, partials/_helpers.scss */
+  /* line 22, partials/_helpers.scss */
   ._sm-text-center {
     text-align: center !important;
   }
 
-  /* line 21, partials/_helpers.scss */
+  /* line 23, partials/_helpers.scss */
   ._sm-pull-left {
     float: left !important;
   }
 
-  /* line 22, partials/_helpers.scss */
+  /* line 24, partials/_helpers.scss */
   ._sm-pull-right {
     float: right !important;
   }
@@ -102,108 +102,136 @@
   font-family: Slot-Regular;
   src: url(../fonts/Slot-Regular.otf);
 }
-/* line 33, partials/_typography.scss */
+@font-face {
+  font-family: CalibreWeb-Light;
+  src: url(../fonts/CalibreWeb-Light.woff);
+}
+@font-face {
+  font-family: CalibreWeb-LightItalic;
+  src: url(../fonts/CalibreWeb-LightItalic.woff);
+}
+@font-face {
+  font-family: CalibreWeb-Medium;
+  src: url(../fonts/CalibreWeb-Medium.woff);
+}
+@font-face {
+  font-family: CalibreWeb-MediumItalic;
+  src: url(../fonts/CalibreWeb-MediumItalic.woff);
+}
+@font-face {
+  font-family: CalibreWeb-Regular;
+  src: url(../fonts/CalibreWeb-Regular.woff);
+}
+@font-face {
+  font-family: CalibreWeb-Semibold;
+  src: url(../fonts/CalibreWeb-Semibold.woff);
+}
+@font-face {
+  font-family: CalibreWeb-SemiboldItalic;
+  src: url(../fonts/CalibreWeb-SemiboldItalic.woff);
+}
+/* line 67, partials/_typography.scss */
 html, body {
   height: 100%;
   width: 100%;
 }
 
-/* line 38, partials/_typography.scss */
+/* line 72, partials/_typography.scss */
 body {
   padding-top: 80px;
 }
 
-/* line 42, partials/_typography.scss */
+/* line 76, partials/_typography.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 46, partials/_typography.scss */
+/* line 80, partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial";
+  font-family: "CalibreWeb-Regular";
 }
 
-/* line 50, partials/_typography.scss */
+/* line 84, partials/_typography.scss */
 h1 {
-  font-size: 54px;
+  font-size: 64px;
 }
 
-/* line 51, partials/_typography.scss */
+/* line 85, partials/_typography.scss */
 h2 {
   font-size: 36px;
 }
 
-/* line 52, partials/_typography.scss */
+/* line 86, partials/_typography.scss */
 h3 {
   font-size: 32px;
 }
 
-/* line 53, partials/_typography.scss */
+/* line 87, partials/_typography.scss */
 h4 {
   font-size: 24px;
 }
 
-/* line 54, partials/_typography.scss */
+/* line 88, partials/_typography.scss */
 h5 {
   font-size: 20px;
 }
 
-/* line 55, partials/_typography.scss */
+/* line 89, partials/_typography.scss */
 h6 {
   font-size: 16px;
 }
 
-/* line 56, partials/_typography.scss */
+/* line 90, partials/_typography.scss */
 p {
   font-size: 14px;
 }
 
-/* line 58, partials/_typography.scss */
+/* line 92, partials/_typography.scss */
 li, a, p {
-  font-family: "Arial";
+  font-family: "CalibreWeb-Regular";
 }
 
-/* line 62, partials/_typography.scss */
+/* line 96, partials/_typography.scss */
 input, textarea {
   border: 1px solid gray;
   outline: none;
 }
 
-/* line 67, partials/_typography.scss */
+/* line 101, partials/_typography.scss */
 button:focus, input:focus {
   outline: 0;
 }
 
-/* line 71, partials/_typography.scss */
+/* line 105, partials/_typography.scss */
 a:hover {
   text-decoration: none;
   opacity: 0.7;
 }
 
-/* line 76, partials/_typography.scss */
+/* line 110, partials/_typography.scss */
 ul {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
 
-/* line 82, partials/_typography.scss */
+/* line 116, partials/_typography.scss */
 li {
   font-size: 1.4rem;
 }
 
-/* line 86, partials/_typography.scss */
+/* line 120, partials/_typography.scss */
 table {
   font-family: "Lato-Regular";
   font-size: 1.4rem;
 }
 
-/* line 91, partials/_typography.scss */
+/* line 125, partials/_typography.scss */
 th {
   font-weight: normal;
 }
 
-/* line 95, partials/_typography.scss */
+/* line 129, partials/_typography.scss */
 label {
   font-family: "Lato-Regular";
   font-size: 1.4rem;
@@ -228,30 +256,39 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
-/* line 25, pages/_homepage.scss */
-.hero h1 {
+/* line 24, pages/_homepage.scss */
+.hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: rgba(17, 17, 17, 0.6);
+  overflow: hidden;
+}
+/* line 37, pages/_homepage.scss */
+.hero .hero-content h1 {
   color: white;
   display: block;
+  text-align: center;
   margin: 0;
   font-weight: 100;
+  font-family: 'CalibreWeb-Light';
   line-height: 1;
   letter-spacing: 0.5px;
-}
-/* line 34, pages/_homepage.scss */
-.hero hr {
-  border-color: yellow;
-  margin-top: 50px;
-  width: 10%;
+  position: relative;
+  z-index: 100;
 }
 
 /* Work
    ========================================================================== */
-/* line 45, pages/_homepage.scss */
+/* line 56, pages/_homepage.scss */
 .work {
   background: url("../img/about-image.jpg") center no-repeat;
   background-size: cover;

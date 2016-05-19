@@ -30,6 +30,40 @@
     src: url(../fonts/Slot-Regular.otf);
 }
 
+@font-face {
+    font-family: CalibreWeb-Light;
+    src: url(../fonts/CalibreWeb-Light.woff);
+}
+
+@font-face {
+    font-family: CalibreWeb-LightItalic;
+    src: url(../fonts/CalibreWeb-LightItalic.woff);
+}
+
+@font-face {
+    font-family: CalibreWeb-Medium;
+    src: url(../fonts/CalibreWeb-Medium.woff);
+}
+
+@font-face {
+    font-family: CalibreWeb-MediumItalic;
+    src: url(../fonts/CalibreWeb-MediumItalic.woff);
+}
+
+@font-face {
+    font-family: CalibreWeb-Regular;
+    src: url(../fonts/CalibreWeb-Regular.woff);
+}
+
+@font-face {
+    font-family: CalibreWeb-Semibold;
+    src: url(../fonts/CalibreWeb-Semibold.woff);
+}
+@font-face {
+    font-family: CalibreWeb-SemiboldItalic;
+    src: url(../fonts/CalibreWeb-SemiboldItalic.woff);
+}
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -44,10 +78,10 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Arial";
+	font-family: "CalibreWeb-Regular";
 }
 
-h1 { font-size: 54px; }
+h1 { font-size: 64px; }
 h2 { font-size: 36px; }
 h3 { font-size: 32px; }
 h4 { font-size: 24px; }
@@ -56,7 +90,7 @@ h6 { font-size: 16px; }
 p { font-size: 14px; }
 
 li, a, p {
-	font-family: "Arial";
+	font-family: "CalibreWeb-Regular";
 }
 
 input, textarea {
